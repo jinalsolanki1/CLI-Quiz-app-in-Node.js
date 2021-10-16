@@ -7,18 +7,18 @@
  var uname = "";
  r1.question("Enter Your Name: ", (uName) => {
      uname = uName;
-     console.log("Welcome To Fashion Quiz" + uname + "\n");
+     console.log("Welcome To Fashion Quiz " + uname + "\n");
      clothquiz();
  });
  
  var i = 0;
  var score = 0;
  const que = [
-     "The jeans that is fitted on the thighs and the gets progressively loose from the knee area is called:",
-     "The basic shape or outline of a garment is referred to as:",
-     "The technique of stitching on one fabric on another for embellishment purposes is called:",
-     "An outfit that comprises of varying shades of the same colour is called:",
-     "The French for high sewing that often refers to exclusive designer creations is:"
+     "\n[Q-1] The jeans that is fitted on the thighs and the gets progressively loose from the knee area is called:",
+     "\n[Q-2] The basic shape or outline of a garment is referred to as:",
+     "\n[Q-3] The technique of stitching on one fabric on another for embellishment purposes is called:",
+     "\n[Q-4] An outfit that comprises of varying shades of the same colour is called:",
+     "\n[Q-5] The French for high sewing that often refers to exclusive designer creations is:"
  ];
  const opt = [
      ["Bootcut jeans", "Mom Jeans", "Boyfriend jeans", "Bell Bottom "],
@@ -125,7 +125,7 @@
  
          });
      } else {
-         console.log("Final Score Of " + uname + ": " + score + "/" + (questions.length * 5));
+         console.log("Final Score Of " + uname + ": " + score + "/" + (que.length * 5));
          r1.close();
      }
  }
