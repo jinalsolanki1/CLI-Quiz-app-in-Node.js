@@ -60,7 +60,7 @@
                  i += 1;
                  clothquiz();
              } else {
-                 console.log("Sorry Wrong answer!!" + "\nRight answer is : " + opt[i][1] + "\tYour Score :- " + score);
+                 console.log("Sorry Wrong answer!!" + "\nRight answer is : " + opt[i][2] + "\tYour Score :- " + score);
                  score -= 2;
                  i += 1;
                  clothquiz();
