@@ -35,7 +35,7 @@
              console.log((j + 1) + ") " + opt[i][j]);
          }
          r1.question("Answer:- ", (ans) => {
-             if (ans === "1") {
+             if (ans === "4") {
                  score += 5;
                  console.log("Well Done :-" + "\tYour Score :- " + score);
                  i += 1;
@@ -54,7 +54,7 @@
              console.log((j + 1) + " - " + opt[i][j]);
          }
          r1.question("Answer:- ", (ans) => {
-             if (ans === "1") {
+             if (ans === "3") {
                  score += 5;
                  console.log("Well Done :-" + "\tYour Score :- " + score);
                  i += 1;
@@ -62,7 +62,7 @@
              } else {
                  console.log("Sorry Wrong answer!!" + "\nRight answer is : " + opt[i][1] + "\tYour Score :- " + score);
                  score -= 2;
-                 i += 1;``
+                 i += 1;
                  clothquiz();
              }
  
@@ -73,7 +73,7 @@
              console.log((j + 1) + " - " + opt[i][j]);
          }
          r1.question("Answer:- ", (ans) => {
-             if (ans === "3") {
+             if (ans === "2") {
                  score += 5;
                  console.log("Well Done :-" + "\tYour Score :- " + score);
                  i += 1;
@@ -111,7 +111,7 @@
              console.log((j + 1) + " - " + opt[i][j]);
          }
          r1.question("Answer:- ", (ans) => {
-             if (ans === "3") {
+             if (ans === "1") {
                  score += 5;
                  console.log("Well Done :-" + "\tYour Score :- " + score);
                  i += 1;
